@@ -14,6 +14,7 @@ class GoogleLoginController extends Controller
     public function redirectToGoogle()
     {
         return Socialite::driver('google')->redirect();
+        
     }
 
     // Method untuk menangani callback dari Google
